@@ -28,6 +28,10 @@ const Pokemons = db.define("products", {
     type: DataTypes.INTEGER,
     allowNull: false,
   },
+  image: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
 });
 
 module.exports = Pokemons; //Export default
